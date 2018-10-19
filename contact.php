@@ -33,15 +33,15 @@ if (!empty($_POST) AND isset($_POST)) {
         $mail->isSMTP();
         $mail->Host = 'mail.gmx.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'belmehdi@gmx.com';
-        $mail->Password = 'Mn2151.2151';
+        $mail->Username = '*******@gmx.com';
+        $mail->Password = '*********';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
         $mail->isHTML(true);
         $mail->From = 'belmehdi@gmx.com';
         $mail->FromName = 'formulaire contact portfolio ';
-        $mail->addAddress('bilal.belmehdi@gmail.com');
+        $mail->addAddress('*********@gmail.com');
 
         $mail->Subject = 'Demande de contact';
 
