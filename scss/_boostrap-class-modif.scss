@@ -1,0 +1,67 @@
+a {
+  color: $fontDef;
+  &:focus,
+  &:hover,
+  &:active {
+    color: $fontActive
+  }
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.bg-primary {
+  background-color: $bgActive;
+}
+
+.bg-default {
+  background-color: $bgDef;
+}
+
+.alert-primary {
+  background-color: $bgActive;
+}
+
+.card-comp {
+  color: $fontDef;
+  background-color: $bgActive;
+  position: static;
+  width: 18rem;
+  height: 27rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  text-transform: uppercase !important;
+  .card-title {
+    font-size: 1.60rem;
+    text-align: center !important;
+    .card-text {
+      font-size: 1.15rem;
+      margin-left: 1rem;
+      text-transform: none !important;
+    }
+  }
+}
+
+.card-real {
+  position: static;
+  width: 30rem;
+  height: auto;
+  background-color: $bgActive;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.navbar-toggler {
+  color: $fontDef;
+  &:focus,
+  &:hover,
+  &:active {
+    color: $fontActive;
+    outline: none;
+  }
+}

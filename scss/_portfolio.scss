@@ -1,0 +1,123 @@
+body {
+  @include body-font;
+  background-color: $bgDef;
+  color: $fontDef;
+  section {
+  margin-bottom: 7rem;
+  margin-top: 4rem;
+}
+}
+
+
+
+h2, h1 {
+  margin-top: 2rem;
+  text-transform: uppercase !important;
+  strong {
+    font-weight: normal;
+  }
+}
+
+textarea {
+  overflow: hidden;
+}
+
+.profilPict {
+  max-width: 30%;
+  height: auto;
+}
+
+.form-position {
+  margin-left: 2rem;
+  .contact-input {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1.5em;
+    line-height: 1.5;
+    color: $fontDef;
+    background-color: $bgDef;
+    background-clip: padding-box;
+    border: 1px solid $bgDef;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    .required {
+      display: none;
+      margin-left: 2rem;
+    }
+  }
+}
+
+.btn-contact {
+  color: $fontDef;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  padding: 0;
+  font-size: 1.25rem;
+  &:focus,
+  &:hover,
+  &:active {
+    color: $fontActive;
+    box-shadow: none;
+  }
+}
+
+.header-master {
+  font-size: 4.75em;
+  .header-slave {
+    font-size: 1.75em;;
+  }
+}
+
+
+
+.portfolio-title {
+  font-size: 3em;
+  margin-bottom: 5rem;
+  text-align: center !important;
+}
+
+.card-minTitle {
+  font-size: 1.40rem;
+  margin-top: 1.50rem;
+}
+
+.card-realTitle {
+  font-size: 1.50rem;
+  text-align: center;
+  .card-subTitle{
+    font-size: 0.90rem;
+  }
+}
+
+
+.portfolio-text {
+  font-size: 1.25rem;
+}
+
+.nav-is-stuck .main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  animation: stickAnim .3s;
+
+}
+
+@keyframes stickAnim {
+  0% {
+    transform: translateY(-86px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.langageBlock{
+
+  background: $bgDef;
+  border-radius: 2em;
+  padding:0 1em;
+  display: inline;
+
+}

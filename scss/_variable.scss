@@ -1,0 +1,10 @@
+$bgDef: #13354A!default;
+$bgActive : #2a495c !default;
+$fontDef: #43BEB9 !default;
+$fontActive: #2e8581 !default;
+
+
+@mixin body-font() {
+  font-family: 'Open Sans', sans-serif;
+}
+
