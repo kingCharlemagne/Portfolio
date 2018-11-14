@@ -30,8 +30,8 @@ if (!empty($_POST) AND isset($_POST)){
         $message = 'Nom : '.$_POST['name'].' email: '.$_POST['email'].' Num téléphone: '.$_POST['phone'].' message: '.$_POST['message'];
         
         mail($destinataire, $sujet, $message);
-        
         $success ='Email envoyé!';
+        header('Location:index.php');
     }
 }
 
